@@ -1,0 +1,25 @@
+Prepare a prediction model for profit of 50_startups data.
+Do transformations for getting better predictions of profit
+and
+make a table containing R^2 value for each prepared model.
+
+R&D Spend -- Research and devolop spend in the past few
+years
+Administration -- spend on administration in the past few years
+Marketing Spend -- spend on Marketing in the past 
+few years
+State -- states from which data is collected
+Profit  -- profit of each state in the past few years
+
+C:\Users\Nik\Documents\data science\assignment
+
+
+need to check this code at the end
+Fitting the Multiple Linear Regression in the Optimal Training set
+
+X_opt_Train, X_opt_Test = train_test_split(X_opy,test_size = 0.2, random_state = 0)
+regressor.fit(X_opt_Train, Y_Train)
+
+# Predicting the Optimal Test set results
+
+Y_opt_Pred = regressor.predict(X_opt_Test)
